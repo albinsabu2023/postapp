@@ -1,0 +1,36 @@
+form{
+    display: flex;
+    flex-direction:column;
+   
+    background-color: rgb(0, 89, 118);
+    align-items: center;
+    justify-content: center;
+    
+}
+form input,textarea{
+    background-color: rgb(0, 18, 18);
+    padding: 20px;
+    width: 70%;
+    color: white;
+    font-size: large;
+    border: none;
+    padding: 20px;
+}
+form input,textarea:focus {
+    outline:none
+}
+.submitButton{
+    background-color:rgb(5, 40, 55);
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+
+}
+.submitButton:hover {
+    background-color: rgb(1, 4, 6);
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+    padding: 10px;
+
+}

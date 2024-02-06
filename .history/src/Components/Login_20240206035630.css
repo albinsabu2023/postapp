@@ -1,0 +1,32 @@
+.login{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    background-color: rgb(0, 48, 136);
+    padding: 40px;
+    margin: 40px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 19px rgb(81, 81, 81);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.login p{
+    padding: 30px;
+    font-size: xx-large;
+
+}
+.login button{
+    background-color:rgb(10, 79, 111) ;
+    border: none;
+    padding:7px 26px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.login button:hover {
+    background-color: rgb(0, 141, 207);
+}

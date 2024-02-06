@@ -1,0 +1,10 @@
+form{
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    background-color: rgb(0, 89, 118);
+
+}
+form input{
+    background-color: rgb(0, 44, 44);
+}

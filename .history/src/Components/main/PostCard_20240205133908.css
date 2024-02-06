@@ -1,0 +1,32 @@
+.postCard{
+    background-color: #0b241c;
+    color: rgb(216, 219, 218);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.postCardHeader{
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+}
+.postCardFooter{
+    font-size: xx-small;
+    background-color: rgba(57, 57, 255, 0.769);
+    padding: 5px ;
+   color: white;
+   border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 200px;
+}
+.postCardButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
